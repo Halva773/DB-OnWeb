@@ -1,0 +1,14 @@
+﻿@model EFDataApp.Models.User
+@{ 
+    ViewBag.Title = Model.Name;
+        }
+<h2>Пользователь @Model.Name</h2>
+<div>
+    <dl class="dl-horisontal">
+        <dt>Итендификатор</dt>
+        <dd>@Model.Id</dd>
+
+        <dt>Возраст</dt>
+        <dd>@Model.Age</dd>
+    </dl>
+</div>
